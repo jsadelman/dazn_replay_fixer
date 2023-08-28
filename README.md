@@ -4,7 +4,7 @@ Google Chrome extension to modify dazn.com for NFL Game Pass replays as follows:
 - Does not show stats ever (instead of when the window is 1024px+)
 
 ## Quick Start
-- Download as a zip
+- Download as a zip from the green Code button
 - Extract files from zip into a folder
 - In Google Chrome, navigate to chrome://extensions (type into top bar, not google search)
 - Turn on Developer Mode
