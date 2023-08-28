@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "DAZN NFL Game Pass Replay Improver",
+  "description": "To avoid spoilers in replaying NFL games, changes default replay view to Full Match and always hide Stats view",
+  "author": "James S. Adelman",
+  "version": "0.2",
+  "icons": {"128": "icon-128.png"},
+  "background" : {
+	  "service_worker": "feelers.js"
+  },
+  "permissions": ["webNavigation","scripting"],
+  "host_permissions": ["https://www.dazn.com/*/fixture/*"]
+}
