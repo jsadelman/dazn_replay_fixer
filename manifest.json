@@ -5,9 +5,15 @@
   "author": "James S. Adelman",
   "version": "0.2",
   "icons": {"128": "icon-128.png"},
-  "background" : {
-	  "service_worker": "feelers.js"
-  },
-  "permissions": ["webNavigation","scripting"],
-  "host_permissions": ["https://www.dazn.com/*/fixture/*"]
+  "content_scripts" : [
+    {
+          "matches": ["https://www.dazn.com/*"],
+	  "js": ["all.js"]
+    },
+    {
+          "matches": ["https://www.dazn.com/*/fixture/*"],
+	  "css": ["no-stats.css"]
+    }
+  ],
+  "permissions": ["tabs","scripting"]
 }
