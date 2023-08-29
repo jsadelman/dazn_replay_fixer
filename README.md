@@ -6,7 +6,7 @@ Google Chrome extension to modify dazn.com for NFL Game Pass replays as follows:
 ## Quick Start
 - Download as a zip from the green Code button
 - Extract files from zip into a folder
-- In Google Chrome, navigate to chrome://extensions (type into top bar, not google search)
+- In Google Chrome, navigate to chrome://extensions by clicking the puzzle piece and Manage Extensions
 - Turn on Developer Mode
 - Choose Load Unpacked
 - Select the folder into which you extracted the files
